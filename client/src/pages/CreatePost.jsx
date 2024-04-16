@@ -139,7 +139,7 @@ export default function CreatePost() {
         )}
         <ReactQuill
           theme='snow'
-          placeholder='Write a सुविचार...'
+          placeholder='Write a Blog...'
           className='h-72 mb-12'
           required
           onChange={(value) => {
