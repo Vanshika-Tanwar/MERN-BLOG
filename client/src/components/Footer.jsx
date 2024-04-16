@@ -8,8 +8,8 @@ export default function FooterComp() {
         <div className="grid w-full justify-between sm:flex md:grid-cols-1">
             <div className="mt-5">
         <Link to="/" className='self-center whitespace-nowrap text-lg sm:text-xl font-semibold dark:text-white'>
-        <span className='px-2 py-1 bg-gradient-to-r from-yellow-300 via-yellow-200 to-yellow-400 rounded-lg text-black font-semibold'>सुविचार</span>
-        Board
+        <span className='px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white font-semibold'>Vanshika's</span>
+        Blog
       </Link>        
             </div>
             <div className="grid grid-cols-2 gap-8 mt-4 sm:grid-cols-3 sm:gap-6">
@@ -20,7 +20,7 @@ export default function FooterComp() {
                   100 JS Projects
                 </Footer.Link>
                 <Footer.Link href='/about' target="_blank" rel="noopener noreferrer">
-                सुविचार Board
+                Vanshika's Blog
                 </Footer.Link>
               </Footer.LinkGroup>
               </div>
@@ -52,7 +52,7 @@ export default function FooterComp() {
         <div className="w-full sm-flec sm:items-center sm:justify-between">
           <Footer.Copyright 
           href="#"
-          by="सुविचार Board"
+          by="Vanshika's Blog"
           year={new Date().getFullYear()}/>
            <div className="flex gap-6 sm:mt-2 mt-4 sm:justify-center">
             <Footer.Icon href='#' icon={BsFacebook}/>
