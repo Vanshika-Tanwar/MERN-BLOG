@@ -68,7 +68,7 @@ export default function SignIn() {
               placeholder='********'
               id='password' onChange={handleChange}/>
             </div>
-            <Button gradientDuoTone='purpleToPink' type='submit' disabled={loading}>
+            <Button gradientDuoTone='pinkToOrange' type='submit' disabled={loading}>
               {
               loading ? (
                 <>
